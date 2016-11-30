@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+        <!-- Top menu item -->
+        <menuitem name="Technical Inspection"
+            id="technical_inspection_menu_base_partner" sequence="25" web_icon="technical_inspection,static/description/icon.png"/>
+
+        <menuitem id="menu_config_technical_inspection" name="Configuration"
+            parent="technical_inspection_menu_base_partner" sequence="100" />
+
+        <menuitem id="menu_case_technical_inspection_report" name="Report"
+            parent="technical_inspection_menu_base_partner" sequence="90" />
+
+
+    </data>
+</openerp>

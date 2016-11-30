@@ -1,0 +1,3 @@
+"id","model_id/id","name","domain_force","perm_read","perm_write","perm_create","perm_unlink"
+"technical_inspection.technical_inspection_manager_rule","technical_inspection.model_technical_inspection_team","technical_inspection Manager","[(1,'=',1)]","True","True","True","True"
+"technical_inspection.technical_inspection_user_rule","technical_inspection.model_technical_inspection_team","technical_inspection User","['|', ('member_ids','in', user.id), ('member_ids','=', False)]","True","False","False","False"

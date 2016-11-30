@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+<data>
+
+    <record id="technical_inspection_category" model="ir.module.category">
+        <field name="name">technical_inspection</field>
+    </record>
+
+    <record id="group_technical_inspection_user" model="res.groups">
+        <field name="name">Usuario</field>
+        <field name="category_id" ref="technical_inspection_category"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+
+    <record id="group_technical_inspection_manager" model="res.groups">
+        <field name="name">Gerente</field>
+        <field name="category_id" ref="technical_inspection_category"/>
+        <field name="implied_ids" eval="[(4, ref('technical_inspection.group_technical_inspection_user'))]"/>
+    </record>
+
+
+
+
+    <record model='ir.ui.menu' id='technical_inspection.menu_case_technical_inspection_dashboard'>
+        <field name="groups_id" eval="[(4,ref('technical_inspection.group_technical_inspection_user'))]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="technical_inspection.technical_inspection_menu_base_partner">
+        <field eval="[(4, ref('technical_inspection.group_technical_inspection_user'))]" name="groups_id"/>
+    </record>
+
+    <record model="ir.ui.menu" id="technical_inspection.menu_case_technical_inspection_tickets">
+        <field eval="[(4, ref('technical_inspection.group_technical_inspection_user'))]" name="groups_id"/>
+    </record>
+
+    <record model="ir.ui.menu" id="technical_inspection.menu_case_technical_inspection_teams">
+        <field eval="[(4, ref('technical_inspection.group_technical_inspection_manager'))]" name="groups_id"/>
+    </record>
+
+    <record model="ir.ui.menu" id="technical_inspection.menu_config_technical_inspection">
+        <field eval="[(4, ref('technical_inspection.group_technical_inspection_manager'))]" name="groups_id"/>
+    </record>
+
+    <record model="ir.ui.menu" id="technical_inspection.menu_case_technical_inspection_report">
+        <field eval="[(4, ref('technical_inspection.group_technical_inspection_manager'))]" name="groups_id"/>
+    </record>
+
+    <record model="ir.ui.menu" id="technical_inspection.menu_case_technical_inspection_report_tickets">
+        <field eval="[(4, ref('technical_inspection.group_technical_inspection_manager'))]" name="groups_id"/>
+    </record>
+
+</data>
+
+</odoo>

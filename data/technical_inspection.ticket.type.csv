@@ -1,0 +1,4 @@
+"id","name","sequence"
+"technical_inspection.type_inspection","technical_inspection","10"
+"technical_inspection.type_incident","Issue","10"
+"technical_inspection.type_question","Question","10"

@@ -1,0 +1,5 @@
+"id","name","sequence","team_ids/id","fold","is_close"
+"technical_inspection.stage_new","New","0","technical_inspection.technical_inspection_team1","False","False"
+"technical_inspection.stage_in_progress","In Progress","1","technical_inspection.technical_inspection_team1","False","False"
+"technical_inspection.stage_solved","Solved","2","technical_inspection.technical_inspection_team1","False","True"
+"technical_inspection.stage_cancelled","Cancelled","3","technical_inspection.technical_inspection_team1","True","True"

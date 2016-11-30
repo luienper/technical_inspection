@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <template id="assets_backend" name="technical_inspection assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/technical_inspection/static/src/less/technical_inspection.less"/>
+                <!-- Salesteam dashboard asset -->
+                <script type="text/javascript" src="/technical_inspection/static/src/js/technical_inspection_dashboard.js"></script>
+            </xpath>
+        </template>
+</odoo>

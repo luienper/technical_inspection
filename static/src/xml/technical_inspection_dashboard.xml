@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+
+    <t t-name="technical_inspection.technical_inspectionDashboard">
+        <div t-if="show_demo or values" class="o_technical_inspection_dashboard">
+            <div t-attf-class="#{show_demo ? 'o_demo' : ''}">
+                <table class="table table-condensed">
+                    <tr>
+                        <td class="o_text">
+                            <div class="o_highlight">My Tickets</div>
+                        </td>
+                        <td class="o_main" title="My open tickets">
+                            <a href="#" class="o_dashboard_action" name="technical_inspection.technical_inspection_ticket_action_main">
+                                <span class="o_highlight">
+                                    <t t-if="!show_demo">
+                                        <t t-esc="values['tickets']['today']"/>
+                                    </t>
+                                    <t t-if="show_demo">
+                                        0
+                                    </t>
+                                </span><br/>
+                                Tickets
+                            </a>
+                        </td>
+
+                        <td class="o_main" title="My high priority tickets" rowspan="2">
+                            <a href="#" class="o_dashboard_action" name="technical_inspection.technical_inspection_ticket_action_high_priorities">
+                                <span class="o_highlight">
+                                    <t t-if="!show_demo">
+                                        <t t-esc="values['high']['today']"/>
+                                    </t>
+                                    <t t-if="show_demo">
+                                        0
+                                    </t>
+                                </span><br/>
+                                High Priority (<span class="fa fa-star" style="color: gold"></span><span class="fa fa-star" style="color: gold"></span>)
+                            </a>
+                        </td>
+                        <td class="o_main" title="My urgent tickets" rowspan="2">
+                            <a href="#" class="o_dashboard_action" name="technical_inspection.technical_inspection_ticket_action_high_priorities">
+                                <span class="o_highlight">
+                                    <t t-if="!show_demo">
+                                        <t t-esc="values['urgent']['today']"/>
+                                    </t>
+                                    <t t-if="show_demo">
+                                        0
+                                    </t>
+                                </span><br/>
+                                Urgent (<span class="fa fa-star" style="color: gold"></span><span class="fa fa-star" style="color: gold"></span><span class="fa fa-star" style="color: gold"></span>)
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="o_text">Avg Open Hours</td>
+                        <td class="o_main">
+                            <a class="o_dashboard_action" href="#" name="technical_inspection.technical_inspection_ticket_action_dashboard">
+                               <t t-esc="values['tickets']['avg_open_hours']"/>
+                            </a>
+                        </td>
+                        <td class="o_main">
+                            <a class="o_dashboard_action" href="#" name="technical_inspection.technical_inspection_ticket_action_dashboard_high_priority">
+                                <t t-esc="values['high']['avg_open_hours']"/>
+                            </a>
+                        </td>
+                        <td class="o_main">
+                            <a class="o_dashboard_action" href="#" name="technical_inspection.technical_inspection_ticket_action_dashboard_urgent">
+                                <t t-esc="values['urgent']['avg_open_hours']"/>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div t-attf-class="#{show_demo ? 'o_demo' : ''}">
+                <table class="hidden-xs table table-condensed">
+                    <tr>
+                        <td class="o_text">
+                            <div class="o_highlight">My Performance</div>
+                            Today
+                        </td>
+                        <td title="Performance Report" class="o_secondary">
+                            <a class="o_dashboard_action" href="#" name="technical_inspection.technical_inspection_ticket_action_close_analysis">
+                                <span class="o_highlight">
+                                   <t t-if="!show_demo">
+                                        <t t-esc="values['closed']['today']"/>
+                                    </t>
+                                    <t t-if="show_demo">
+                                        0
+                                    </t>
+                                </span><br/>
+                                Closed Tickets
+                            </a>
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td class="o_text">Avg 7 days</td>
+                        <td class="o_secondary">
+                            <a class="o_dashboard_action" href="#" name="technical_inspection.technical_inspection_ticket_action_7days_analysis">
+                                <t t-if="!show_demo">
+                                        <t t-esc="values['closed']['avg_seven_day']"/>
+                                    </t>
+                                <t t-if="show_demo">
+                                        0
+                                </t>
+                            </a>
+                        </td>
+
+
+                    </tr><tr>
+                        <td class="o_text">Daily Target</td>
+                        <td class="o_secondary">
+                            <span class="o_target_to_set" name="technical_inspection_target_closed" title="Click to set" value="8">
+
+                                    8
+
+
+                            </span>
+
+                        </td>
+
+
+                    </tr>
+                </table>
+            </div>
+
+            <div t-if="show_demo" class="o_welcome_message">
+                <div class="o_welcome_image">
+                    <i class="fa fa-smile-o fa-5x"></i>
+                </div>
+                <div class="o_welcome_content">
+                    <h2>Hi there.</h2>
+                    <h4>Ready to boost your customer service?</h4>
+                    <h4>This dashboard will activate once you have created your first ticket.</h4>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>
+
+

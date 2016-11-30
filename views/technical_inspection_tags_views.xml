@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+        <!-- technical_inspection Tags-->
+
+        <record id="technical_inspection_tag_view_tree" model="ir.ui.view" >
+            <field name="name">technical_inspection.tags.tree</field>
+            <field name="model">technical_inspection.tag</field>
+            <field name="arch" type="xml">
+                <tree editable="top" string="Tag">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="technical_inspection_tag_action" model="ir.actions.act_window" >
+            <field name="name">Tickets Tags</field>
+            <field name="res_model">technical_inspection.tag</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_type">form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to create a new ticket tag.
+              </p><p>
+                Tags allows to organize tickets.
+              </p>
+            </field>
+        </record>
+
+        <menuitem action="technical_inspection_tag_action" name="Tags"
+            id="menu_case_technical_inspection_tags" parent="menu_config_technical_inspection"/>
+
+    </data>
+</openerp>

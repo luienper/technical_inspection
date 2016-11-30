@@ -1,0 +1,622 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* crm_technical_inspection
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-01-21 14:07+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection.report,email:0
+msgid "# Emails"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection.report,nbr:0
+msgid "# of Requests"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.actions.act_window,help:crm_technical_inspection.crm_case_technical_inspection_act111
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a new request. \n"
+"              </p><p>\n"
+"                technical_inspection and Support allow you to track your interventions.\n"
+"              </p><p>\n"
+"                Use the Odoo Issues system to manage your support\n"
+"                activities. Issues can be connected to the email gateway: new\n"
+"                emails may create issues, each of them automatically gets the\n"
+"                history of the conversation with the customer.\n"
+"              </p>\n"
+"            "
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,active:0
+msgid "Active"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "All pending technical_inspection Request"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Assigned to Me or My Sales Team(s)"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection,state:0
+#: selection:crm.technical_inspection.report,state:0
+msgid "Cancelled"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.ui.menu,name:crm_technical_inspection.menu_crm_case_technical_inspection-act
+msgid "Categories"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Categorization"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,categ_id:0
+#: field:crm.technical_inspection.report,categ_id:0
+msgid "Category"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,channel_id:0
+#: field:crm.technical_inspection.report,channel_id:0
+msgid "Channel"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: field:crm.technical_inspection.report,date_closed:0
+msgid "Close Date"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,date_closed:0
+#: selection:crm.technical_inspection,state:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: selection:crm.technical_inspection.report,state:0
+msgid "Closed"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Communication"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,channel_id:0
+msgid "Communication channel."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,company_id:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: field:crm.technical_inspection.report,company_id:0
+msgid "Company"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.actions.act_window,help:crm_technical_inspection.crm_technical_inspection_categ_action
+msgid "Create and manage technical_inspection categories to better manage and classify your support requests."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,create_uid:0
+msgid "Created by"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,create_date:0
+#: field:crm.technical_inspection.report,create_date:0
+msgid "Creation Date"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_tree_view_technical_inspection
+#: field:crm.technical_inspection,date:0
+#: field:crm.technical_inspection.report,date:0
+msgid "Date"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Dates"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: field:crm.technical_inspection,date_deadline:0
+#: field:crm.technical_inspection.report,date_deadline:0
+msgid "Deadline"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection.report,delay_close:0
+msgid "Delay to Close"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,description:0
+msgid "Description"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,email_from:0
+msgid "Destination email for email gateway"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection.report,state:0
+msgid "Draft"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,duration:0
+msgid "Duration"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,email_from:0
+msgid "Email"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: code:addons/crm_technical_inspection/crm_technical_inspection.py:117
+#, python-format
+msgid "Error!"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Escalate"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Estimates"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Extended Filters..."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Extra Info"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,message_follower_ids:0
+msgid "Followers"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "General"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Group By"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.actions.act_window,help:crm_technical_inspection.action_report_crm_technical_inspection
+msgid "Have a general overview of all support requests by sorting them with specific criteria such as the processing time, number of requests answered, emails sent and costs."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_graph
+#: model:ir.model,name:crm_technical_inspection.model_crm_technical_inspection
+#: model:ir.ui.menu,name:crm_technical_inspection.menu_config_technical_inspection
+msgid "technical_inspection"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.actions.act_window,name:crm_technical_inspection.action_report_crm_technical_inspection
+#: model:ir.ui.menu,name:crm_technical_inspection.menu_report_crm_technical_inspections_tree
+msgid "technical_inspection Analysis"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.actions.act_window,name:crm_technical_inspection.crm_technical_inspection_categ_action
+msgid "technical_inspection Categories"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.actions.act_window,name:crm_technical_inspection.crm_case_technical_inspection_act111
+msgid "technical_inspection Requests"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "technical_inspection Support"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_tree_view_technical_inspection
+msgid "technical_inspection Support Tree"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_technical_inspection_calendar_view
+msgid "technical_inspection Supports"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.ui.menu,name:crm_technical_inspection.menu_help_support_main
+msgid "technical_inspection and Support"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: model:ir.model,name:crm_technical_inspection.model_crm_technical_inspection_report
+msgid "technical_inspection report after Sales Services"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "technical_inspection requests that are assigned to me or to one of the sale teams I manage"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection,priority:0
+#: selection:crm.technical_inspection.report,priority:0
+msgid "High"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection.report,priority:0
+msgid "Highest"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,id:0
+#: field:crm.technical_inspection.report,id:0
+msgid "ID"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection,state:0
+msgid "In Progress"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,message_is_follower:0
+msgid "Is a Follower"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,date_action_last:0
+msgid "Last Action"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,message_last_post:0
+msgid "Last Message Date"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection,priority:0
+#: selection:crm.technical_inspection.report,priority:0
+msgid "Low"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection.report,priority:0
+msgid "Lowest"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,message_ids:0
+msgid "Messages"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,message_ids:0
+msgid "Messages and communication history"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Misc"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Month"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Month of technical_inspection requests"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "My Case(s)"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "My Company"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "My Sales Team(s)"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,name:0
+msgid "Name"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: selection:crm.technical_inspection,state:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "New"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "New technical_inspection Request"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,date_action_next:0
+msgid "Next Action"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: code:addons/crm_technical_inspection/crm_technical_inspection.py:134
+#, python-format
+msgid "No Subject"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: selection:crm.technical_inspection,priority:0
+#: selection:crm.technical_inspection.report,priority:0
+msgid "Normal"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "Notes"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: selection:crm.technical_inspection.report,state:0
+msgid "Open"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Open technical_inspection Request"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection.report,delay_expected:0
+msgid "Overpassed Deadline"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_tree_view_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: field:crm.technical_inspection,partner_id:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: field:crm.technical_inspection.report,partner_id:0
+msgid "Partner"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: selection:crm.technical_inspection,state:0
+#: selection:crm.technical_inspection.report,state:0
+msgid "Pending"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,planned_cost:0
+#: field:crm.technical_inspection.report,planned_cost:0
+msgid "Planned Costs"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,planned_revenue:0
+msgid "Planned Revenue"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: field:crm.technical_inspection,priority:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: field:crm.technical_inspection.report,priority:0
+msgid "Priority"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,probability:0
+msgid "Probability (%)"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_tree_view_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Query"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,ref:0
+msgid "Reference"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,ref2:0
+msgid "Reference 2"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.crm_case_form_view_technical_inspection
+msgid "References"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Request Date by Month"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Request Month"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: field:crm.technical_inspection,user_id:0
+msgid "Responsible"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Responsible User"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,section_id:0
+msgid "Responsible sales team. Define Responsible user and Email account for mail gateway."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: field:crm.technical_inspection,section_id:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Sales Team"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Salesperson"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+msgid "Search"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+msgid "Search technical_inspection"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection.report,section_id:0
+msgid "Section"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: view:crm.technical_inspection:crm_technical_inspection.view_crm_case_technical_inspection_filter
+#: field:crm.technical_inspection,state:0
+#: view:crm.technical_inspection.report:crm_technical_inspection.view_report_crm_technical_inspection_filter
+#: field:crm.technical_inspection.report,state:0
+msgid "Status"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,message_summary:0
+msgid "Summary"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,state:0
+msgid "The status is set to 'Draft', when a case is created.                                  \n"
+"If the case is in progress the status is set to 'Open'.                                  \n"
+"When the case is over, the status is set to 'Done'.                                  \n"
+"If the case needs to be reviewed then the status is set to 'Pending'."
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,email_cc:0
+msgid "These email addresses will be added to the CC field of all inbound and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,message_unread:0
+msgid "Unread Messages"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,write_date:0
+msgid "Update Date"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection.report,user_id:0
+msgid "User"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,email_cc:0
+msgid "Watchers Emails"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: field:crm.technical_inspection,website_message_ids:0
+msgid "Website Messages"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: help:crm.technical_inspection,website_message_ids:0
+msgid "Website communication history"
+msgstr ""
+
+#. module: crm_technical_inspection
+#: code:addons/crm_technical_inspection/crm_technical_inspection.py:117
+#, python-format
+msgid "You can not escalate, you are already at the top level regarding your sales-team category."
+msgstr ""
+
